@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+:root{
+    --blue:#3c6382;
+    --dark-blue:#0a3d62;
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border:none;
+    transition: all .3s cubic-bezier(.38,1.15,.7,1.12);
+}
+body{
+	background: url(../image/background-img.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+	
+h1{
+	text-align:center;
+	padding:10px;	
+	color:cadetblue;
+	font-family:monteserrat;
+}
+	
+
+input[type="text"]{
+	width:40%;
+	font-size:16px;	
+}
+
+.menu{
+	padding-left:290px;
+	font-size:15px;
+}
+
+.center{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	transform: transalte(-50%,-50%);
+	width: 400px;
+	border-radius: 10px;
+}
+
+
+.center form{
+	padding: 0 35px;
+	box-sizing: border-box;
+	padding-left:34px
+}
+
+
+form .text_field{
+	position : relative;
+	border-bottom: 2px solid #adadad;
+	margin: 20px 0;
+}
+
+.text_field input{
+	width: 100%;
+	padding: 0 5px;
+	height: 30px;
+	font-size: 16px;
+	border: none;
+	background: none;
+	outline: none;
+}
+
+
+.text_field label{
+    position: absolute;
+	top:50%;
+	left:5px;
+    transform: translateY(-50%);
+	font-size:16px ;
+	pointer-events:none;
+	transition: .5s;
+}
+
+
+
+.text_field input:focus ~label,
+.text_field input:valid ~label{
+	top:-5px;
+	color:black;
+}
+
+.text_field input:focus ~ span::before,
+.text_field input:valid ~ span::before{
+	width:10
+}
+
+input[type="submit"]{
+	width:40%;
+	height:5%;
+	border:1.5px solid;
+	background:lightseagreen;
+	border-radius:10px;
+	font-size:20px;
+	color:white;
+	font-weight:900;
+	cursor:pointer;
+	outline:none;
+}
+
+input[type="submit"]:hover{
+	border-color:blue;
+	transition: .5s;
+}

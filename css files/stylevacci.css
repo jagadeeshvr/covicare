@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+:root{
+    --blue:#3c6382;
+    --dark-blue:#0a3d62;
+}
+
+
+*{
+   font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border:none;
+    transition: all .3s cubic-bezier(.38,1.15,.7,1.12);
+}
+body{
+		 background: url(../image/bground-image.jpg) no-repeat;
+		 background-size: cover;
+		 background-position: center;
+		 background-attachment: fixed;
+		
+	}
+	
+h1{
+	text-align:center;
+	padding:10px;	
+	color:cadetblue;
+	font-family:monteserrat;
+}
+	
+	
+	
+form{
+	margin-left:23px;
+	margin-right:35px;
+	height:800px;
+}
+
+input[type="text"]{
+	width:40%;
+	font-size:16px;	
+}
+#type{
+	width:25%;
+	font-size:16px;
+	margin-left:30px;
+	height:28px;
+}
+.menu{
+	padding-left:30px;
+	font-size:18px;
+}
+label{
+	font-size:18px;
+	
+}
+
+select[name="beds"]{
+	margin-left:34px;
+	height:26px;
+	font-size:14.3px;
+}
+select[name="bed"]{
+	margin-left:34px;
+	height:26px;
+	font-size:16px;
+}
+
+select[name="bedtype"]{
+	margin-left:75px;
+	height:26px;
+	font-size:16px;
+}
+select[name="vname"]{
+	margin-left:20px;
+	height:26px;
+	font-size:16px;
+}
+select[name="dose"]{
+	margin-left:108px;
+	height:26px;
+	font-size:16px;
+}
+.ip1{
+	margin-left:35px;
+	font-size:16px;
+}
+.ip2{
+	margin-left:90px;
+	font-size:16px;
+}
+.ip7{
+	margin-left:35px;
+	font-size:16px;
+}
+.ip3{
+	margin-left:80px;
+	font-size:16px;
+}
+.ip4{
+	margin-left:90px;
+	width:40%;
+	font-size:16px;
+}
+.ip5{
+	margin-left:35px;
+	width:25%;
+	font-size:17px;
+}
+.ip6{
+	margin-left:60px;
+	width:25%;
+	font-size:14px;
+}
+input[type="submit"]{
+width:40%;
+height:40px;
+background-color:lightseagreen;
+margin-left:280px;
+margin-top:50px;
+}
